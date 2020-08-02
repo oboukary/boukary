@@ -1,0 +1,19 @@
+# Theme metadata
+name = "boukary"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#333ac4"
+
+# Menu
+menu_primary = "#fbf9f4"
+menu_text = "#333"
+menu_text_active = "#111670"
+menu_title = "#333"
+
+# Backgrounds
+background = "#fbf9f4"
+home_section_odd = "#fbf9f4"
+home_section_even = "#fbf9f4"

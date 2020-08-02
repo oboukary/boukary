@@ -1,0 +1,51 @@
+---
+title: "Gestion de portefeuille"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    css: page.css
+    highlight: github
+---
+
+
+### Bref rappel 
+
+En finance, le ratio de Sharpe est l'un des outils importants utilisés dans la gestion de portefeuille. Il rentre dans le cadre général du modèle d'évaluation des actifs financiers (MEDAF) ou Capital Asset Pricing Model (CAPM) en anglais </br>
+Inventée par l'économiste américian, *William Forsyth Sharpe*, il permet de mesurer la rentabilité d’un portefeuille en fonction du risque pris. </br>
+Dans cet article, nous allons, à partir d'un certains nombre de *packages* R, extraire les rendements boursiers d'un certains nombres d'actifs que nous allons utiliser pour construire des portefeuilles. A partir de ces portefeuilles, nous allons calculer les ratio de Sharpe et évaluer la performance de ces différents portefeuilles d'actifs. Pour cela nous allons suivre le cheminement suivant:
+
++ créer une fonction pour télécharger les données sur *yahoo finance* 
++ choisir les actions sur lesquelles on souhaite travaille et visualiser l'évolution de leur cours.
++ Choisir les pondérations des différents actifs pour constituer notre portefeuille.
++ calculer et visualiser les rendements
++ calculer le ratio de Sharpe
+
+On y vas! </br>
+
+Commençons par charger les packages utiles à notre analyse.
+Nous allons utiliser principalement les packages:
+
+- `dygraphs`{.pkg}: c'est un package de R basé sur une librairie *javascript* du même nom. C'est un package qui permettra de répresenter de manière interactive les séries chronologiques sur R. Pour plus d'informations voir [ici](https://rstudio.github.io/dygraphs/) ou encore [ici](http://dygraphs.com/).
+- `PerformanceAnalytics`{.pkg}: ce package R fourni un ensemble de fonctions économétriques permettant d'analyser les risques des instruments financiers et des portefeuilles.
+- `quantmod`{.pkg}: Permet de 
+
+### Modélisation
+
+```{r packages, message=FALSE}
+library(PerformanceAnalytics)
+library(quantmod)
+library(dygraphs)
+```
+Une fois les packages installés et chargés nous allons créer une fonction pour faciliter l'extraction des données sur *yahoo finance*.
+
+
+```{r klippy, echo=FALSE, include=TRUE, message=FALSE }
+klippy::klippy(lang=c("r","python","julia", "sas"),
+               color ="#E13D3D",
+               position = "right",
+               tooltip_message = "copier le code",
+               tooltip_success = "copié"
+               )
+```
+
+    

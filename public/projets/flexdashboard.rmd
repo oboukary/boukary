@@ -1,0 +1,49 @@
+---
+title: "Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+
+
+```{r setup, include=FALSE,message=FALSE}
+library(flexdashboard)
+library(DT)
+library(rpivotTable)
+library(shiny)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r,message=FALSE}
+iris %>%
+  datatable(extensions = 'Buttons',
+            options = list(dom = 'Blfrtip',
+                           buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+                           lengthMenu = list(c(10,25,50,-1),
+                                             c(10,25,50,"All"))))
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+plot(iris$Sepal.Length, type="l", col="blue")
+
+```
+
+### Chart C
+
+```{r}
+rpivotTable(iris)
+
+```
+

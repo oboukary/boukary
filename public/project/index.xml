@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Boukary Ouedraogo</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Boukary Ouedraogo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>&amp;copy; Boukary Ouedraogo, {year}</copyright>
+    <lastBuildDate>Sun, 16 Feb 2020 13:13:37 +0100</lastBuildDate>
+    
+	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le ratio de Sharpe</title>
+      <link>/project/2020-02-16-ratio-de-sharpe/</link>
+      <pubDate>Sun, 16 Feb 2020 13:13:37 +0100</pubDate>
+      
+      <guid>/project/2020-02-16-ratio-de-sharpe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

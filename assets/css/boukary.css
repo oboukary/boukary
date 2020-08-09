@@ -119,25 +119,25 @@ a.nav-link:hover:after {
 /* code */
 /* https://github.com/rstudio/blogdown/blob/master/docs/02-hugo.Rmd */
 
+
 pre, code {
 	color: #616566;
-	background-color: #fff;
+	
 }
-
+/*
 pre {
   border: 1px solid #fff;
   box-shadow: 5px 5px 5px #eee;
   padding: 0.25em;
   background: #fff;
   overflow-x: auto;
-  border-radius: 0px; /*undo rounded corners*/
-}
+  border-radius: 0px; 
 
 pre code { 
   background: none; 
   font-size: 0.8rem;
 }
-
+*/
 /* alerts */
 
 div.alert-note > div:first-child::before {
@@ -293,4 +293,21 @@ iframe {
 
 .section-heading p {
 	color: #78858f;
+}
+
+/* Clipboard --------------------------*/
+
+.hasCopyButton {
+  position: relative;
+}
+
+.btn-copy-ex {
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+.hasCopyButton:hover button.btn-copy-ex {
+  visibility: visible;
 }

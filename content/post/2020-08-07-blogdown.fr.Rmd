@@ -1,0 +1,37 @@
+---
+title: blogdown
+author: ''
+date: '2020-08-07'
+slug: blogdown
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-07T00:24:33+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(lang = c("r", "markdown","python"),
+all_precode = FALSE,
+position = c("top", "right"),
+color = "blue",
+tooltip_message = "Copy code",
+tooltip_success = "Copied!")
+```
+
+### Test
+
+Dans ce article, je parle de machine learning avec `tidymodels`. 
+`Tidymodels` est un package de `R` po
+
+```{r}
+library(rmarkdown)
+```
+

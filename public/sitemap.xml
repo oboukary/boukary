@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/autres/</loc>
-    <lastmod>2020-02-16T13:13:37+01:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-08-07T00:24:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/blogdown/</loc>
+    <lastmod>2020-08-07T00:24:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-08-07T00:24:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/autres/</loc>
     <lastmod>2020-02-16T13:13:37+01:00</lastmod>
   </url>
   
@@ -48,10 +58,6 @@
   
   <url>
     <loc>/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
   <url>

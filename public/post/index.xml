@@ -7,9 +7,36 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>fr-fr</language>
     <copyright>&amp;copy; Boukary Ouedraogo, {year}</copyright>
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blogdown</title>
+      <link>/post/blogdown/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blogdown/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/clipboard/clipboard.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/primer-tooltips/build.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/klippy/css/klippy.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/klippy/js/klippy.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;script&gt;
+  addClassKlippyTo(&#34;pre.r, pre.markdown, pre.python&#34;);
+  addKlippy(&#39;right&#39;, &#39;top&#39;, &#39;#0000FF&#39;, &#39;1&#39;, &#39;Copy code&#39;, &#39;Copied!&#39;);
+&lt;/script&gt;
+&lt;div id=&#34;test&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Test&lt;/h3&gt;
+&lt;p&gt;Dans ce article, je parle de machine learning avec &lt;code&gt;tidymodels&lt;/code&gt;.
+&lt;code&gt;Tidymodels&lt;/code&gt; est un package de &lt;code&gt;R&lt;/code&gt; po&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rmarkdown)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

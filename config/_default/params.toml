@@ -1,7 +1,7 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 #title french
-title = " Data science: Site de Boukary Ouedraogo"
+title = " Data science et intelligence artificielle: Site de Boukary Ouedraogo"
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
 color_theme = "boukary"
@@ -29,16 +29,16 @@ logo = ""
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 highlight_languages = ["r", "css", "bash", "javascript", "markdown","python","sas","gams","java","julia"]  # Add support for highlighting additional languages
-highlight_style = "brown-paper"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_style = "vs"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = true
+privacy_pack = false
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -100,8 +100,6 @@ zoom = 15
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = ["boukary"]
-plugins_js  = []
-
 ############################
 ## Advanced options       ##
 ############################

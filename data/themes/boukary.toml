@@ -5,15 +5,15 @@ name = "boukary"
 light = true
 
 # Primary
-primary = "#333ac4"
+primary = "#8187b1"
 
 # Menu
-menu_primary = "#f2f8fa"
+menu_primary = "#f5f7f6"
 menu_text = "#333"
-menu_text_active = "#111670"
+menu_text_active = "#8187b1"
 menu_title = "#333"
 
 # Backgrounds
-background = "#f2f8fa"
-home_section_odd = "#f2f8fa"
-home_section_even = "#f2f8fa"
+background = "#f5f7f6"
+home_section_odd = "#f5f7f6"
+home_section_even = "#f5f7f6"
